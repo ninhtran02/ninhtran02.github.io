@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ninh Tran — Statistics research, publications, teaching and software">
+  <title>Ninh Tran | Academic Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="site-name" href="#about">Ninh Tran</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-shell">
+    <aside class="profile" aria-label="Researcher profile">
+      <!-- Replace the initials with <img src="profile.jpg" alt="Portrait of Ninh Tran"> when you have a photo. -->
+      <div class="profile-photo" aria-hidden="true">NT</div>
+      <h1>Ninh Tran</h1>
+      <p class="profile-subtitle">PhD Researcher in Statistics</p>
+      <p class="profile-affiliation">The University of Melbourne</p>
+      <p class="profile-location">Melbourne, Australia</p>
+      <div class="profile-links">
+        <!-- Replace YOUR-USERNAME and other placeholders before publishing. -->
+        <a href="https://github.com/YOUR-USERNAME">GitHub</a>
+        <a href="https://scholar.google.com/">Google Scholar</a>
+        <a href="https://orcid.org/">ORCID</a>
+        <a href="cv.pdf">CV (PDF)</a>
+      </div>
+    </aside>
+
+    <main class="main-content" id="about">
+      <section aria-labelledby="about-heading">
+        <h2 id="about-heading">About Me</h2>
+        <p>I am a PhD researcher in statistics at the University of Melbourne. My research focuses on multiple testing procedures, particularly false discovery rate control and replicability analysis across multiple studies.</p>
+        <p>This website collects my research interests, manuscripts, teaching experience and open-source statistical software.</p>
+      </section>
+
+      <section id="research" aria-labelledby="research-heading">
+        <h2 id="research-heading">Research Interests</h2>
+        <p>Multiple testing; false discovery rate and family-wise error rate control; replicability analysis; directional inference; statistical genomics.</p>
+      </section>
+
+      <section id="publications" aria-labelledby="publications-heading">
+        <h2 id="publications-heading">Manuscripts &amp; Working Papers</h2>
+        <article class="paper">
+          <h3>ParFilter: Covariate-assisted replicability analysis</h3>
+          <p>Research on detecting signals replicated across multiple studies using multiple testing procedures and auxiliary covariates.</p>
+          <p class="paper-meta">Working paper · <a href="https://github.com/YOUR-USERNAME/ParFilter_FDR">Code and reproducibility</a></p>
+        </article>
+        <article class="paper">
+          <h3>Adaptive procedures for replicability analysis with k-FWER control</h3>
+          <p>Research on adaptive replicability testing with generalized family-wise error control.</p>
+          <p class="paper-meta">Working paper</p>
+        </article>
+        <p class="hint">Edit these entries to include your final titles, coauthors, publication status and manuscript links.</p>
+      </section>
+
+      <section id="teaching" aria-labelledby="teaching-heading">
+        <h2 id="teaching-heading">Teaching</h2>
+        <p>Teaching experience in mathematics and statistics at the University of Melbourne.</p>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <p>For academic enquiries, please use the links in the sidebar or add your preferred professional email address here.</p>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">© <span id="year">2026</span> Ninh Tran. Built with HTML and CSS.</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
